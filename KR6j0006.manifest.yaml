@@ -1,0 +1,109 @@
+canonical_identifier: bkk:krp/KR6j0006/v1
+canonical_location: https://kanripo.org/bkk/KR6j0006/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 攝大毘盧遮那成佛神變加持經入蓮華胎藏海會悲生曼荼攞廣大念誦儀軌供養方便會
+  identifiers:
+    alt_id:
+    - T18n0850
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T18/T18n0850.xml
+    old_id: T18n0850
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 乙
+  label: 乙
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 原
+  label: 原
+  source_xml_id: wit3
+- short: 宋
+  label: 宋
+  source_xml_id: wit4
+- short: 元
+  label: 元
+  source_xml_id: wit5
+- short: 明
+  label: 明
+  source_xml_id: wit6
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0006_000.yaml, hash: 'sha256:57b0a12544a5e373d991ad7ceae2b073fe12344b68049f511816b82a31b026c3'}
+  - {seq: 1, filename: KR6j0006_001.yaml, hash: 'sha256:fb48f52d65bae4588721e0bb3f3c94fb48209b7ac3e2abf7ab222ded407008e3'}
+  - {seq: 2, filename: KR6j0006_002.yaml, hash: 'sha256:37d03fa2a8c2b9572e27558bcdb47d46dee73a0024ba06527cb371d078d65f1c'}
+  - {seq: 3, filename: KR6j0006_003.yaml, hash: 'sha256:5ed33d57e7b5a540149966632ba093507938e3995bc356346c8a86cb34e254b5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0006_000.markers.yaml, hash: 'sha256:05f109a3f95a96d9fd2640262b37ca868ef1045dae98661c842ffe3f9a3ca49c'}
+  - {seq: 1, role: markers, filename: assets/KR6j0006_001.markers.yaml, hash: 'sha256:e21b530848da63ea5e792319571a7b9cb9bdb5f8fa245baf305fea8115109795'}
+  - {seq: 2, role: markers, filename: assets/KR6j0006_002.markers.yaml, hash: 'sha256:a475e83b00d3baee0724cb100491a83acfa0805913cd7c015971bded6baebebe'}
+  - {seq: 3, role: markers, filename: assets/KR6j0006_003.markers.yaml, hash: 'sha256:a1987a99ec704afecca9bd081d62437f2ff1ade388e34aaa1e3594131a11e710'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6j0006_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 刻密軌序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0006_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3313
+  label: '攝大毘盧遮那成佛神變加持經
+
+    入蓮華胎藏海會悲生曼荼攞廣
+
+    大念誦儀軌供養方便會第一'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0006_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 11719
+  label: '攝大毘盧遮那經大菩提幢諸
+
+    尊密印標幟曼荼羅儀軌卷第
+
+    二'
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6j0006_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 4623
+  label: '攝大毘盧遮那成佛神變加持經
+
+    大悲胎藏轉字輪成三藐三佛陀
+
+    入八祕密六月成就儀軌卷第
+
+    三'
+  type: juan
+  level: 1
+hash: sha256:902ff0215d3f1a80abd899d4b677ad3dbe695f8c877f3261f5a38221fc191591
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
